@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FURNIKING</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logins">
+               <div class="logins_child">
+                   <a href="index.html">Welcome to our online shop</a>
+                   <select id="country">
+                    <option value="English">English (USD)</option>
+                    <option value="Rusia">Rusia(RUB)</option>
+                    <option value="Armenia">Armenia(DRAM)</option>
+                  </select>
+               </div>
+               <div class="logins_child2">
+                    <img class="log_icon" src="foto/Rectangle 21.svg" alt="">
+                   <a href="pages/Login or Sign up.html">Login or Sign up</a>
+               </div>
+            </div>
+        </div><!-- header -->
+        <div class="search">
+            <div class="logo">
+                <img src="foto/Logo.svg" alt="Logo">
+            </div>
+            <div class="search_inp">
+                <input type="search" placeholder="Search here">
+                <div class="box_option"> 
+                    <select id="s_inp">
+                        <option value="English">Categories</option>
+                        <opti on value="Rusia">Categories2</option>
+                    </select>
+                </div>
+                <div class="search_log"><a href="#"><img class="search_img" src="foto/Vector (2).svg" alt=""></a></div>
+            </div>
+            <div class="icon_box">
+                <div class="icon_items1">
+                    <img src="foto/Vector.svg" alt="">
+                    <div class="addCard"><a href="#">4</a></div>
+                </div>
+                <div class="icon_items2">
+                    <img src="foto/Notification.svg" alt="">
+                </div>
+                <div class="icon_items3">
+                   <img src="foto/Vector (1).svg" alt="">
+                </div>
+            </div>
+        </div> <!-- search -->
+       <div class="nav_wraper">
+        <div class="nav">
+            <div class="nav_icon">
+                <a href="#">
+                    <!-- <img src="foto/menu 1.svg" alt=""> -->
+                    <div class="img">
+                        <a href="#" class="im_a" onclick="abc()">
+                            <div class="img_items1 ibox"></div>
+                            <div class="img_items2 ibox"></div>
+                            <div class="img_items3 ibox"></div>
+                        </a>
+                    </div>
+                </a>
+                <a href="#"  class="im_b">ALL COLLECTIONS</a>
+            </div>
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <a href="#" class="blog">BLOG</a>
+                <a href="#">ABOUT</a>
+                <a href="#" id="contact">CONTACT US</a>
+            </div>
+        </div>
+       </div>
+        <div class="header_box">
+            <div class="sidbar activ" id="men">
+                <ul class="list" >
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Hot Sale</a></li>
+                    <li><a href="#">Furniture</a></li>
+                    <li><a href="#">Amrature</a></li>
+                    <li><a href="#">Tabble</a></li>
+                    <li><a href="#">Chair</a></li>
+                    <li><a href="#">Sofa</a></li>
+                    <li><a href="#">Mirrors</a></li>
+                    <li><a href="#">Stools</a></li>
+                    <li class="list_end"><a href="#">Benches</a></li>
+                </ul>
+            </div>
+            <div class="header_content">
+                 <div class="content_top">
+                    <div class="content_text">
+                        <a href="#" class="c_t1">TOP COLLECTIONS 2022</a>
+                        <a href="#" class="c_t2"><img src="foto/Tittle.svg" alt=""></a>
+                        <a href="#" class="c_t3">Get 50% off all products</a> 
+                        <button><a href="#">SHOP NOW</a></button>  
+                    </div>
+                    <div class="content_img">
+                        <img src="foto/Furniture 1.png" alt="">
+                    </div>
+                    <div class="content_slider">
+                        <div class="slider_items1">
+                            <a href="#">
+                                <img src="foto/Rectangle.png" alt="">
+                            </a>
+                            <a href="#" id="price"><span>$</span>120</a>
+                            <a href="#">Office Desk Chair</a>
+                        </div>
+                        <div class="slider_items2">
+                            <a href="#">
+                                <img src="foto/Rectangle (1).png" alt="">
+                            </a>
+                            <a href="#" id="price"><span>$</span>180</a>
+                            <a href="#">Home Alisa Sofa</a>
+                        </div>
+                        <div class="slider_items3">
+                            <a href="#">
+                                <img src="foto/Rectangle (2).png" alt="">
+                            </a>
+                            <a href="#" id="price"><span>$</span>250</a>
+                            <a href="#">Modern Chair</a>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="content_bottm">
+                     <input type="radio" name="r1">
+                     <input type="radio" name="r1">
+                     <input type="radio" name="r1">
+                     <input type="radio" name="r1">
+                 </div>
+            </div> 
+        </div><!-- header_box -->
+        <div class="in_user">
+            <div class="in_user_items">
+                <a href="#" class="user_img1"><img src="foto/free-delivery 1.svg" alt=""></a>
+                <div class="user_items_children">
+                    <a href="#" class="in_user_text">Free Shipping</a>
+                    <a href="#" class="in_user_text2">Orders over $100</a>
+                </div>
+            </div>
+            <div class="in_user_items">
+                <a href="#" class="user_img2"><img src="foto/Shape.svg" alt=""></a>
+                <div class="user_items_children">
+                    <a href="#" class="in_user_text">Smart Gift Card</a>
+                    <a href="#" class="in_user_text2">Buy $1000 to get card</a>
+                </div>
+            </div>
+            <div class="in_user_items">
+                <a href="#" class="user_img3"><img src="foto/Vector (3).svg" alt=""></a>
+                <div class="user_items_children">
+                    <a href="#" class="in_user_text">Quick Payment</a>
+                    <a href="#" class="in_user_text2">100% secure payment</a>
+                </div>
+            </div>
+            <div class="in_user_items">
+                <a href="#" class="user_img4"><img src="foto/Vector (5).svg" alt=""></a>
+               <div class="user_items_children">
+                <a href="#" class="in_user_text">24/7 Support</a>
+                <a href="#" class="in_user_text2">Quick support</a>
+               </div>
+            </div>
+        </div>
+        <div class="article">
+            <div class="article_items1 tx">
+                 <div class="tx_children">
+                    <a href="#" class="article_children1">Modern Furniture Collections</a>
+                    <a href="#" class="article_children2">Starting from $500</a>
+                    <a href="#" class="article_children3">Read more</a>
+                 </div>
+                 <img src="foto/Rectangle 35.png" alt="">
+            </div>
+            <div class="article_items2">
+                <div class="article_items2_child1 tx">
+                    <div class="tx_children">
+                        <a href="#" class="article_children1">Geometric Bookcase</a>
+                        <a href="#" class="article_children2">Up to 20% discount</a>
+                        <a href="#" class="article_children3">Read more</a>
+                    </div>
+                    <img src="foto/Rectangle 34.png" alt="">
+                </div>
+                <div class="article_items2_child2 tx">
+                    <div class="tx_children">
+                        <a href="#" class="article_children1">Minimal Sofa collections </a>
+                        <a href="#" class="article_children2">Sale upto 40% discount</a>
+                        <a href="#" class="article_children3">Read more</a>
+                    </div>
+                    <img src="foto/Rectangle 33.png" alt="">
+                </div>
+            </div>
+        </div> <!--article-->
+        <div class="center_nav">
+            <div class="center_nav_items1">
+                <img src="foto/TRENDING.svg" alt="TRENDING">
+            </div>
+            <div class="center_nav_items2">
+                <a href="#" class="center_nav_children">Top Products</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Best Sellers</a>
+            </div>
+        </div> <!--center_nav-->
+        <div class="check_price">
+            <div class="check_price_items1">
+                <div class="price_imig">
+                    <a href="#" class="new">New</a>
+                    <img src="foto/Container.png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items2">
+                <div class="price_imig img007">
+                    <a href="#" class="new">New</a>
+                    <img src="foto/Container (1).png" alt="">
+                    <!-- <div class="price_imig_icone">
+                        <a href="#"><img src="foto/Vector (6).svg" alt=""></a>
+                        <a href="#"><img src="foto/Shop.svg" alt=""></a>
+                        <a href="#"><img src="foto/Compare.svg" alt=""></a>
+                        <a href="#"><img src="foto/View.svg" alt=""></a>
+                    </div> -->
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items3">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (2).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items4">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (3).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items5">
+                <div class="price_imig">
+                    <a href="#"class="sale">Sale</a>
+                    <img src="foto/Container (4).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#">$250</a>
+                </div>
+            </div>
+            <div class="check_price_items6">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (5).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items7">
+                <div class="price_imig">
+                    <a href="#"class="new">New</a>
+                    <img src="foto/Container (6).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items8">
+                <div class="price_imig">
+                    <a href="#" class="new">New</a>
+                    <img src="foto/Container (7).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+        </div> <!--check_price-->
+        <div class="check_price_btn">
+            <div class="heck_price_btn_children1">
+                <input type="radio" name="r1">
+                <input type="radio" name="r1">
+            </div>
+            <div class="heck_price_btn_children2">
+                <a href="#">SPECIAL OFFER</a>
+            </div>
+        </div> <!--check_price_btn-->
+          <div class="living_room">
+              <div class="living_room_items1">
+                <div class="living_room_children">
+                    <a href="#" class="room_children_it1">Living Room Furniture</a>
+                    <a href="#" class="room_children_it2">You don't have a chair. 
+                      Are you ready for growth? Shop with us 40% discount!</a>
+                    <div class="living_children_items1">
+                        <a href="#" class="room_children_it3">$150</a>
+                        <a href="#" class="room_children_it4">$250</a>
+                        <a href="#" class="room_children_it5">SHOP NOW</a>
+                    </div>
+                   <div class="living_children_items2">
+                      <div class="living_litl">
+                          <a href="#" class="room_children_it6">10</a>
+                          <a href="#" class="room_children_it7">Days</a>
+                      </div>
+                      <div class="living_litl">
+                          <a href="#" class="room_children_it6">15</a>
+                          <a href="#" class="room_children_it7">HRS</a>
+                      </div>
+                      <div class="living_litl">
+                          <a href="#" class="room_children_it6">30</a>
+                          <a href="#" class="room_children_it7">MIN</a>
+                      </div>
+                      <div class="living_litl">
+                          <a href="#" class="room_children_it6">22</a>
+                          <a href="#"class="room_children_it7">secs</a>
+                      </div>
+                   </div>
+                </div>
+                  <a href="#" class="discount">40% off</a>
+                  <img src="foto/Rectangle 43.png" alt="">
+              </div>
+              <div class="living_room_items2">
+                <div class="living_room_children">
+                    <a href="#" class="room_children_it1">Modern chair</a>
+                    <a href="#" class="room_children_it2">Hot chairs of the modern 
+                        era are now available in our stock.</a>
+                    <div class="living_children_items3">
+                        <a href="#" class="room_children_it3">$75</a>
+                        <a href="#" class="room_children_it4">$150</a>
+                        <a href="#" class="room_children_it5">SHOP NOW</a>
+                    </div>
+                    <div class="living_children_items4">
+                        <div class="living_litl">
+                            <a href="#" class="room_children_it6">15</a>
+                            <a href="#" class="room_children_it7">Days</a>
+                        </div>
+                        <div class="living_litl">
+                            <a href="#"  class="room_children_it6">08</a>
+                            <a href="#" class="room_children_it7">HRS</a>
+                        </div>
+                        <div class="living_litl">
+                            <a href="#"  class="room_children_it6">20</a>
+                            <a href="#" class="room_children_it7">MIN</a>
+                        </div>
+                        <div class="living_litl">
+                            <a href="#"  class="room_children_it6">12</a>
+                            <a href="#" class="room_children_it7">secs</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="discount">50% off</a>
+                <img src="foto/Rectangle 44.png" alt="">
+              </div>
+          </div> <!--living_room-->
+        <div class="check_price_menu">
+             <div class="check_price_menuitems1">
+                 <a href="#">OUR PRODUCTS</a>
+             </div>
+            <div class="check_price_menuitems2">
+                <a href="#" class="check_price_first">Top Products</a>
+                <a href="#">Best Sellers</a>
+                <a href="#">New Arrivals</a>
+                <a href="#">Todays Deals</a>
+            </div>
+        </div><!--check_price_menu-->
+        <div class="check_price price">
+            <div class="check_price_items1">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (8).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items2">
+                <div class="price_imig img007">
+                    <a href="#" class="new">New</a>
+                    <img src="foto/Container (9).png" alt="">
+                    <!-- <div class="price_imig_icone">
+                        <a href="#"><img src="foto/Vector (6).svg" alt=""></a>
+                        <a href="#"><img src="foto/Shop.svg" alt=""></a>
+                        <a href="#"><img src="foto/Compare.svg" alt=""></a>
+                        <a href="#"><img src="foto/View.svg" alt=""></a>
+                    </div> -->
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$120</a>
+                      <a href="#" class="st_bfor">$150</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items3">
+                <div class="price_imig">
+                    <a href="#" class="sale red">-30%</a>
+                    <img src="foto/Container (10).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$130</a>
+                      <a href="#" class="st_bfor">$150</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items4">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (11).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$100</a>
+                      <a href="#" class="st_bfor">$120</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items5">
+                <div class="price_imig">
+                    <a href="#"class="sale red">-30%</a>
+                    <img src="foto/Container (12).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$100</a>
+                      <a href="#">$120</a>
+                </div>
+            </div>
+            <div class="check_price_items6">
+                <div class="price_imig">
+                    <a href="#" class="sale">Sale</a>
+                    <img src="foto/Container (13).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$130</a>
+                      <a href="#" class="st_bfor">$150</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items7">
+                <div class="price_imig">
+                    <a href="#"  class="new">New</a>
+                    <img src="foto/Container (14).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$180</a>
+                      <a href="#" class="st_bfor">$250</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+            <div class="check_price_items8">
+                <div class="price_imig">
+                    <a href="#" class="new">New</a>
+                    <img src="foto/Container (15).png" alt="">
+                </div>
+                <div class="price_text1">
+                    <a href="#">Chair</a>
+                    <a href="#">Minimal LCD chair</a>
+                </div>
+                <div class="price_text2">
+                      <a href="#">$120</a>
+                      <a href="#" class="st_bfor">$150</a>
+                      <a href="#" class="star1"></a> 
+                      <a href="#" class="star2"></a> 
+                      <a href="#" class="star3"></a> 
+                      <a href="#" class="star4"></a> 
+                      <a href="#" class="star5"></a>
+                </div>
+            </div>
+        </div> <!--check_price-->
+        <div class="slide_btn">
+            <div class="slide_btn_children">
+                <div class="slide_btn_items1">
+                    <a href="#">Next page</a>
+                </div>
+                <div class="slide_btn_items2">
+                    <p>Page</p>
+                    <input type="text" placeholder="1">
+                    <p>of 100</p>
+                </div>
+                <div class="slide_btn_items3">
+                    <a href="#"><img src="foto/Vector (11).svg" alt="Left"></a>
+                    <a href="#"><img src="foto/Vector (12).svg" alt="Right"></a>
+                </div>
+            </div>
+        </div> <!--slide_btn-->
+        <div class="centr_text">
+            <a href="#">What Our Customer Says</a>
+    </div> <!--centr_text-->
+        <div class="slider_bootm">
+            <a href="#"><img src="foto/🔹 Icon Color..svg" alt=""></a>
+            <div class="slider_bootm_box">
+                <div class="slider_bootm_children1">
+                    <img src="foto/Image Placeholder.png" alt="">
+                </div>
+                <a href="" class="slider_bootm_children2">
+                    I like Furniking.com and as compared to other company 
+                    it's polices and customers support is very good easy to reach., also many time they unable to delivered. The ultricies are pregnant while the quis is suspended. 
+                    Risus commodo viverra maecenas accumsan lacus vel facilisist amet.
+                </a>
+                <a href="" class="slider_bootm_children3">
+                    Angelina Joly
+                </a>
+                <a href="" class="slider_bootm_children4">
+                    Co-founder
+                </a>
+            </div>
+            <a href="#"><img src="foto/🔹 Icon Color.svg" alt=""></a>
+        </div>  <!--slider_bootm-->
+        <div class="under_box">
+            <div class="under_box_items0">
+                <a href="#">Our Latest Articles</a>
+            </div>
+            <div class="under_box_items">
+                <div class="under_box_children one">
+                    <div class="under_grandson1">
+                        <div class="grandson1_children">
+                            <a href="#" class="grandson1_children0">Furniture</a>
+                            <a href="#" class="grandson1_children1">23 September 2022</a>
+                        </div>
+                        <a href="#" class="grandson1_children2">Begineer guide buying minimal 
+                            sofa</a>
+                        <a href="#" class="grandson1_children3">Read more</a>
+                    </div>
+                    <img src="foto/Card.png" alt="">
+                </div>
+                <div class="under_box_children two">
+                    <div class="under_grandson2">
+                        <div class="grandson2_children">
+                            <a href="#" class="grandson1_children0">TABLE</a>
+                            <a href="#" class="grandson1_children1">23 September 2022</a>
+                        </div>
+                        <a href="#" class="grandson1_children2">Buying best 
+                            minimal computer table</a>
+                        <a href="#" class="grandson1_children3">Read more</a>
+                    </div>
+                    <img src="foto/Card (1).png" alt="">
+                </div>
+                <div class="under_box_children 
+                three">
+                    <div class="under_grandson3">
+                        <div class="grandson3_children 
+                        four">
+                            <a href="#" class="grandson1_children0">Bench</a>
+                            <a href="#" class="grandson1_children1">23 march 2022</a>
+                        </div>
+                        <a href="#" class="grandson1_children2">How to choose 
+                            best modern bench</a>
+                        <a href="#" class="grandson1_children3">Read more</a>
+                    </div>
+                    <img src="foto/Card (2).png" alt="">
+                </div>
+                <div class="under_box_children 
+                four">
+                    <div class="under_grandson4">
+                        <div class="grandson4_children">
+                            <a href="#" class="grandson1_children0">Chair</a>
+                            <a href="#" class="grandson1_children1">23 march 2022</a>
+                        </div>
+                        <a href="#" class="grandson1_children2">Best Summer Outfit
+                            Style in this Country</a>
+                        <a href="#" class="grandson1_children3">Read more</a>
+                    </div>
+                    <img src="foto/Card (3).png" alt="">
+                </div>
+            </div>
+        </div><!--under_box-->
+        <div class="bootm">
+            <div class="bootm_items1">
+                <div class="bootm_items_children1">
+                    <div class="bootm_logo">
+                        <img src="foto/Logo (1).svg" alt="">
+                    </div>
+                    <a href="#">Funking is the a popular Ecommerce site.
+                         Lorem ipsum dolor sit amet,
+                         consectetur adipiscing elit, 
+                         sed do eiusmod tempor</a>
+                         <div class="bootm_icon">
+                             <img src="foto/ic-facebook.svg" alt="">
+                             <img src="foto/ic-twitter.svg" alt="">
+                             <img src="foto/ic-instagram.svg" alt="">
+                             <img src="foto/ic-pinterset.svg" alt="">
+                         </div>
+                </div>
+                <div class="bootm_items_children2">
+                    <a href="#"><span class="sp">Help</span><br>
+                        Privacy Policy
+                        Shipping & Delivery
+                        Refund Policy
+                        Track Your  Order</a>
+                </div>
+                <div class="bootm_items_children3">
+                    <a href="#">
+                        <span class="sp">Store</span><br>
+                        Furniture
+                        Tabble
+                        Sofa
+                        Other
+                    </a>
+                </div>
+                <div class="bootm_items_children4">
+                    <a href="#">
+                        <span class="sp">Supports</span><br>
+                        Feedbcak
+                        Contact us
+                        Download app
+                        Terms conditins</a>
+                </div>
+            </div>
+            <div class="bootm_items2">
+                <a href="#">© 2021 Funking - All rights reserved.</a>
+                <div class="bootm_items_children5">
+                    <a href="#">Privacy</a>
+                    <a href="#" class="bootm_items_children5_centr">Security</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div> <!--bootm-->
+
+
+        <!-- ========== -->
+        <div class="modal" id="mod">
+            <div class="modal_wrapper">
+                <div class="myModal">
+                    <span class="mySpan">	
+                        &#10006;</span>
+                    <form action="" id="form">
+                        <div class="form_top">
+                           <input type="text" name="name" class="nam" placeholder="name">
+                           <select class="form_section">
+                               <option value="question">question</option>
+                               <option value="suggestions">suggestions</option>
+                               <option value="help">help</option>
+                           </section>
+                        </div>
+                        <div class="form_inp">
+                            <input type="email" class="eml" placeholder="email">
+                        </div>
+                        <div class="form_texteria">
+                            <textarea name="" id="txt" cols="35" rows="10"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== -->
+    </div> <!-- main -->
+    <script src="js/app.js"></script>
+</body>
+</html>
